@@ -1,0 +1,262 @@
+<ui version="4.0" >
+ <class>UserManageClass</class>
+ <widget class="QWidget" name="UserManageClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1144</width>
+    <height>618</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>UserManage</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox" >
+   <property name="geometry" >
+    <rect>
+     <x>400</x>
+     <y>70</y>
+     <width>341</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="title" >
+    <string>添加用户</string>
+   </property>
+   <widget class="QPushButton" name="addUserBtn" >
+    <property name="geometry" >
+     <rect>
+      <x>100</x>
+      <y>330</y>
+      <width>88</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>添加用户</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label" >
+    <property name="geometry" >
+     <rect>
+      <x>41</x>
+      <y>61</y>
+      <width>76</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>用 户 名：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="userNameLineEdit" >
+    <property name="geometry" >
+     <rect>
+      <x>124</x>
+      <y>61</y>
+      <width>167</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2" >
+    <property name="geometry" >
+     <rect>
+      <x>41</x>
+      <y>120</y>
+      <width>77</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>权    限：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="authorityComboBox" >
+    <property name="geometry" >
+     <rect>
+      <x>124</x>
+      <y>120</y>
+      <width>167</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3" >
+    <property name="geometry" >
+     <rect>
+      <x>41</x>
+      <y>170</y>
+      <width>76</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>新 密 码：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="newPwdLiEt" >
+    <property name="geometry" >
+     <rect>
+      <x>124</x>
+      <y>170</y>
+      <width>167</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="echoMode" >
+     <enum>QLineEdit::Password</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4" >
+    <property name="geometry" >
+     <rect>
+      <x>41</x>
+      <y>230</y>
+      <width>75</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>确认密码：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="confirmPwdLiEt" >
+    <property name="geometry" >
+     <rect>
+      <x>124</x>
+      <y>230</y>
+      <width>167</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="echoMode" >
+     <enum>QLineEdit::Password</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3" >
+   <property name="geometry" >
+    <rect>
+     <x>770</x>
+     <y>70</y>
+     <width>321</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="title" >
+    <string>修改权限和删除用户</string>
+   </property>
+   <widget class="QLabel" name="label_5" >
+    <property name="geometry" >
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>权    限：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6" >
+    <property name="geometry" >
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>72</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>用 户 名：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="authorComBox" >
+    <property name="geometry" >
+     <rect>
+      <x>120</x>
+      <y>110</y>
+      <width>111</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="modifyAuthorBtn" >
+    <property name="geometry" >
+     <rect>
+      <x>90</x>
+      <y>220</y>
+      <width>88</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>修改权限</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="delUserBtn" >
+    <property name="geometry" >
+     <rect>
+      <x>90</x>
+      <y>320</y>
+      <width>88</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>删除用户</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="userLineEdit" >
+    <property name="geometry" >
+     <rect>
+      <x>110</x>
+      <y>50</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>60</x>
+     <y>100</y>
+     <width>251</width>
+     <height>421</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="showAllUsersBtn" >
+   <property name="geometry" >
+    <rect>
+     <x>110</x>
+     <y>40</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font" >
+    <font>
+     <family>SimSun</family>
+     <pointsize>16</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="text" >
+    <string>显示所有用户</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>

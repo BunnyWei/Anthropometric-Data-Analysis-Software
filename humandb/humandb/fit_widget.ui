@@ -1,0 +1,253 @@
+<ui version="4.0" >
+ <class>FitWidgetClass</class>
+ <widget class="QWidget" name="FitWidgetClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1003</width>
+    <height>542</height>
+   </rect>
+  </property>
+  <property name="font" >
+   <font>
+    <family>SimSun</family>
+    <pointsize>11</pointsize>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+    <underline>false</underline>
+    <strikeout>false</strikeout>
+   </font>
+  </property>
+  <property name="windowTitle" >
+   <string>FitWidget</string>
+  </property>
+  <widget class="QListWidget" name="xListWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>131</width>
+     <height>411</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="yListWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>820</x>
+     <y>120</y>
+     <width>131</width>
+     <height>411</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView" >
+   <property name="geometry" >
+    <rect>
+     <x>160</x>
+     <y>120</y>
+     <width>651</width>
+     <height>411</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="xLabel" >
+   <property name="geometry" >
+    <rect>
+     <x>290</x>
+     <y>40</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet" >
+    <string notr="true" >color:red</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="xTableComboBox" >
+   <property name="geometry" >
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="xLabel_2" >
+   <property name="geometry" >
+    <rect>
+     <x>240</x>
+     <y>40</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>X轴:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="yLabfel" >
+   <property name="geometry" >
+    <rect>
+     <x>600</x>
+     <y>40</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Y轴:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label" >
+   <property name="geometry" >
+    <rect>
+     <x>220</x>
+     <y>60</y>
+     <width>601</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="rListWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>970</x>
+     <y>90</y>
+     <width>51</width>
+     <height>81</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="aLineEdit" >
+   <property name="geometry" >
+    <rect>
+     <x>432</x>
+     <y>90</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="bLineEdit" >
+   <property name="geometry" >
+    <rect>
+     <x>622</x>
+     <y>90</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="yTableComboBox" >
+   <property name="geometry" >
+    <rect>
+     <x>820</x>
+     <y>90</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sizeLabel" >
+   <property name="geometry" >
+    <rect>
+     <x>430</x>
+     <y>40</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="yLabel" >
+   <property name="geometry" >
+    <rect>
+     <x>630</x>
+     <y>40</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet" >
+    <string notr="true" >color:red</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit" >
+   <property name="geometry" >
+    <rect>
+     <x>222</x>
+     <y>90</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="xLabel_3" >
+   <property name="geometry" >
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font" >
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>16</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="text" >
+    <string>X 轴</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="xLabel_4" >
+   <property name="geometry" >
+    <rect>
+     <x>860</x>
+     <y>50</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font" >
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>16</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="text" >
+    <string>Y 轴</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2" >
+   <property name="geometry" >
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>451</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>功能提示：先选择X轴参数，再选择Y轴参数，中间区域将显示数据回归模型。</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>

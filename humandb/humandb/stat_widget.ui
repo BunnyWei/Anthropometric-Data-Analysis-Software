@@ -1,0 +1,431 @@
+<ui version="4.0" >
+ <class>StatWidgetClass</class>
+ <widget class="QWidget" name="StatWidgetClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1124</width>
+    <height>539</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>StatWidget</string>
+  </property>
+  <widget class="QPushButton" name="statButton" >
+   <property name="geometry" >
+    <rect>
+     <x>220</x>
+     <y>240</y>
+     <width>51</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="maximumSize" >
+    <size>
+     <width>100</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="text" >
+    <string>统计>></string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="showLabel" >
+   <property name="geometry" >
+    <rect>
+     <x>980</x>
+     <y>470</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12" >
+   <property name="geometry" >
+    <rect>
+     <x>310</x>
+     <y>23</y>
+     <width>16</width>
+     <height>29</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>-10</y>
+     <width>211</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="frameShape" >
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow" >
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QListWidget" name="listWidget" >
+    <property name="geometry" >
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>201</width>
+      <height>381</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget" >
+    <property name="geometry" >
+     <rect>
+      <x>3</x>
+      <y>10</y>
+      <width>120</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout" >
+     <item>
+      <widget class="QLabel" name="label" >
+       <property name="maximumSize" >
+        <size>
+         <width>30</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text" >
+        <string>分组:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer" >
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0" >
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2" >
+       <property name="text" >
+        <string>类别：</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget" >
+    <property name="geometry" >
+     <rect>
+      <x>20</x>
+      <y>460</y>
+      <width>158</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_5" >
+     <item>
+      <widget class="QPushButton" name="selectAllButton" >
+       <property name="text" >
+        <string>全选</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="selectNoneButton" >
+       <property name="text" >
+        <string>全不选</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QSplitter" name="splitter" >
+    <property name="geometry" >
+     <rect>
+      <x>100</x>
+      <y>96</y>
+      <width>9</width>
+      <height>5</height>
+     </rect>
+    </property>
+    <property name="orientation" >
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <widget class="QWidget" name="verticalLayoutWidget" >
+     <layout class="QVBoxLayout" name="verticalLayout" />
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_2" >
+     <layout class="QVBoxLayout" name="verticalLayout_2" />
+    </widget>
+   </widget>
+   <widget class="QComboBox" name="groupComboBox" >
+    <property name="geometry" >
+     <rect>
+      <x>2</x>
+      <y>36</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="typeComboBox" >
+    <property name="geometry" >
+     <rect>
+      <x>79</x>
+      <y>36</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="okButton" >
+    <property name="geometry" >
+     <rect>
+      <x>160</x>
+      <y>35</y>
+      <width>43</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="maximumSize" >
+     <size>
+      <width>43</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="text" >
+     <string>确定</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="layoutWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>271</x>
+     <y>450</y>
+     <width>789</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_7" >
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2" >
+      <item>
+       <widget class="QLabel" name="label_6" >
+        <property name="text" >
+         <string>设置文件名：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="fileNameLineEdit" />
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3" >
+      <item>
+       <widget class="QLabel" name="label_5" >
+        <property name="text" >
+         <string>选择导出目录</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="openPushButton" >
+        <property name="text" >
+         <string>..浏览</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="dirLineEdit" />
+      </item>
+      <item>
+       <widget class="QPushButton" name="exportButton" >
+        <property name="text" >
+         <string>导出</string>
+        </property>
+        <property name="iconSize" >
+         <size>
+          <width>13</width>
+          <height>13</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>271</x>
+     <y>60</y>
+     <width>789</width>
+     <height>381</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7" >
+   <property name="geometry" >
+    <rect>
+     <x>272</x>
+     <y>25</y>
+     <width>45</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>地域</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="districtComboBox" >
+   <property name="geometry" >
+    <rect>
+     <x>300</x>
+     <y>25</y>
+     <width>69</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="jiguanComboBox" >
+   <property name="geometry" >
+    <rect>
+     <x>410</x>
+     <y>25</y>
+     <width>69</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8" >
+   <property name="geometry" >
+    <rect>
+     <x>378</x>
+     <y>25</y>
+     <width>44</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>籍贯</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9" >
+   <property name="geometry" >
+    <rect>
+     <x>490</x>
+     <y>25</y>
+     <width>45</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>兵种</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="bingzhongComboBox" >
+   <property name="geometry" >
+    <rect>
+     <x>520</x>
+     <y>25</y>
+     <width>69</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10" >
+   <property name="geometry" >
+    <rect>
+     <x>599</x>
+     <y>25</y>
+     <width>44</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>学历</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="wenhuaComboBox" >
+   <property name="geometry" >
+    <rect>
+     <x>630</x>
+     <y>25</y>
+     <width>69</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="junxianLabel" >
+   <property name="geometry" >
+    <rect>
+     <x>714</x>
+     <y>25</y>
+     <width>45</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>军衔</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="junxianComboBox" >
+   <property name="geometry" >
+    <rect>
+     <x>740</x>
+     <y>25</y>
+     <width>69</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_count" >
+   <property name="geometry" >
+    <rect>
+     <x>820</x>
+     <y>20</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3" >
+   <property name="geometry" >
+    <rect>
+     <x>934</x>
+     <y>26</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>百分位：P</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="percentileComboBox" >
+   <property name="geometry" >
+    <rect>
+     <x>1001</x>
+     <y>26</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>

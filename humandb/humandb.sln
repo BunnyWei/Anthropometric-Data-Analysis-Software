@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "edit_pickpoints", "edit_pickpoints\edit_pickpoints.vcproj", "{0DF3DC5D-EA25-3ABB-9BC3-F65B9C4C38BC}"
+	GlobalSection(Qt) = preSolution
+		Integration = True
+	EndGlobalSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "humandb", "humandb\humandb.vcproj", "{C754D373-510F-47D6-8E0B-70BC64FA37A1}"
+	GlobalSection(Qt) = preSolution
+		Integration = True
+	EndGlobalSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "io_base", "io_base\io_base.vcproj", "{AA56A6E7-5083-313F-864D-95750AF45720}"
+	GlobalSection(Qt) = preSolution
+		Integration = True
+	EndGlobalSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DF3DC5D-EA25-3ABB-9BC3-F65B9C4C38BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0DF3DC5D-EA25-3ABB-9BC3-F65B9C4C38BC}.Debug|Win32.Build.0 = Debug|Win32
+		{0DF3DC5D-EA25-3ABB-9BC3-F65B9C4C38BC}.Release|Win32.ActiveCfg = Release|Win32
+		{0DF3DC5D-EA25-3ABB-9BC3-F65B9C4C38BC}.Release|Win32.Build.0 = Release|Win32
+		{C754D373-510F-47D6-8E0B-70BC64FA37A1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C754D373-510F-47D6-8E0B-70BC64FA37A1}.Debug|Win32.Build.0 = Debug|Win32
+		{C754D373-510F-47D6-8E0B-70BC64FA37A1}.Release|Win32.ActiveCfg = Release|Win32
+		{C754D373-510F-47D6-8E0B-70BC64FA37A1}.Release|Win32.Build.0 = Release|Win32
+		{AA56A6E7-5083-313F-864D-95750AF45720}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AA56A6E7-5083-313F-864D-95750AF45720}.Debug|Win32.Build.0 = Debug|Win32
+		{AA56A6E7-5083-313F-864D-95750AF45720}.Release|Win32.ActiveCfg = Release|Win32
+		{AA56A6E7-5083-313F-864D-95750AF45720}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

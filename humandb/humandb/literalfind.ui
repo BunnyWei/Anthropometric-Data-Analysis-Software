@@ -1,0 +1,107 @@
+<ui version="4.0" >
+ <class>LiteralFindClass</class>
+ <widget class="QDialog" name="LiteralFindClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>527</width>
+    <height>262</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>参数搜索</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>411</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout" >
+    <item row="0" column="0" >
+     <widget class="QCheckBox" name="nameCheckBox" >
+      <property name="text" >
+       <string>参数名称：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" >
+     <widget class="QLineEdit" name="nameLineEdit" />
+    </item>
+    <item row="1" column="0" >
+     <widget class="QCheckBox" name="defCheckBox" >
+      <property name="text" >
+       <string>参数定义：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" >
+     <widget class="QLineEdit" name="defLineEdit" />
+    </item>
+    <item row="2" column="0" >
+     <widget class="QCheckBox" name="methodCheckBox" >
+      <property name="text" >
+       <string>测量方法：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1" >
+     <widget class="QLineEdit" name="methodLineEdit" />
+    </item>
+    <item row="3" column="0" >
+     <widget class="QCheckBox" name="meaPointCheckBox" >
+      <property name="text" >
+       <string>测 量 点：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1" >
+     <widget class="QLineEdit" name="meaPointLineEdit" />
+    </item>
+    <item row="4" column="0" >
+     <widget class="QCheckBox" name="bodyCheckBox" >
+      <property name="text" >
+       <string>人体部位：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1" >
+     <widget class="QComboBox" name="bodyComboBox" />
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="findBtn" >
+   <property name="geometry" >
+    <rect>
+     <x>80</x>
+     <y>200</y>
+     <width>127</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>基本查询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelBtn" >
+   <property name="geometry" >
+    <rect>
+     <x>290</x>
+     <y>200</y>
+     <width>126</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>高级查询</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>
